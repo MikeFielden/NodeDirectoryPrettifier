@@ -1,0 +1,26 @@
+{
+  "name": "node_directory_prettifier",
+  "version": "0.0.1",
+  "description": "format a directory structure",
+  "main": "index.js",
+  "scripts": {
+    "preversion": "npm test",
+    "test": "mocha --reporter spec --recursive --compilers js:babel/register",
+    "test:watch": "mocha -w --reporter spec --recursive --compilers js:babel/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeFielden/node_directory_prettifier.git"
+  },
+  "author": "Mike Fielden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikeFielden/node_directory_prettifier/issues"
+  },
+  "homepage": "https://github.com/MikeFielden/node_directory_prettifier#readme",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "chai-spies": "^0.6.0",
+    "mocha": "^2.2.5"
+  }
+}
